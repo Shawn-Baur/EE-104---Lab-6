@@ -1,0 +1,18 @@
+Overview:
+Projects included training an image recognition AI using machine learning algorithms and modifying a game to enhance the gameplay experience by decreasing the time between flower changes, increasing cow speed, and adding rain. Additionally, chat functionality was implemented as both a website name generator and a multipurpose chat bot, useful for creating interactive websites and applications. These projects developed diverse technical skills applicable in various fields.
+
+Important Sections for Development:
+	- Baseline:
+		Increase accuracy
+			Dropout, Batch Normalization, Data gen, and additional layers
+	- Testing:
+		Using the model generated previously it is tested using images outside it's traing set
+	- Garden:
+		update: cowspeed changes when holding space
+		line 220: changes the amount of time between the fangflower spawning
+		line 113: changes the amount of time for a flower to wilt
+	- Hello World to OpenAI
+		template document used to change what is shown on the website
+		static folder provides the location of the image and font layout for the website
+	- Hello World to ChatGPT
+		changin the token, n, and temperature to identify what happens to the model
